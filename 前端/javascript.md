@@ -12,7 +12,7 @@
 - 'block'显示
 
 ### 计时器
-```javasctipt
+```javascript
 //启动计时器，调用overs函数
 var interval = setInterval(overs,1000);
 //停止计时器
