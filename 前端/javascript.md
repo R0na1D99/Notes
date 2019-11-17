@@ -6,9 +6,19 @@
 ### 关于等号
 - a==b 先转换类型再比较
 - a===b 不转换直接比较
+
 ### 隐藏显示
 - style.dispay='none'不显示
 - 'block'显示
+
+### 计时器
+```javasctipt
+//启动计时器，调用overs函数
+var interval = setInterval(overs,1000);
+//停止计时器
+clearInterval(interval);
+interval = null;
+```
 ### Splice--数组操作
 [w3cschool](https://www.w3school.com.cn/jsref/jsref_splice.asp "w3cschool")
 ## 代码部分知识点：
