@@ -15,6 +15,8 @@
 ```javascript
 //启动计时器，调用overs函数
 var interval = setInterval(overs,1000);
+//默认定时器是等一秒再执行的，直接在onload中先执行一次防止显示有误
+overs();
 //停止计时器
 clearInterval(interval);
 interval = null;
